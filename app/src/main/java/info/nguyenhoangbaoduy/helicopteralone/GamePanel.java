@@ -40,7 +40,7 @@ public class GamePanel extends SurfaceView implements SurfaceHolder.Callback {
     private boolean botDown = true;
 
     //increase to slow down difficulty progression, decrease to speed up difficulty progression
-    private int progressDenom = 20;
+    private int progressDenom = 25;
 
     private Explosion explosion;
     private long startReset;
